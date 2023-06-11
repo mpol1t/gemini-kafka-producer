@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gemini-kafka-producer"
+version = "0.1.0"
+description = ""
+authors = ["Michal Polit <mpolit@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "gemini_kafka_producer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
